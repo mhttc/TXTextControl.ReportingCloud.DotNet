@@ -1,13 +1,8 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System;
-using System.Collections.Generic;
 using System.Net.Http;
-#if NET45
-using System.Net.Http.Formatting;
-#endif
 using System.Net.Http.Headers;
-using System.Text;
 
 namespace TXTextControl.ReportingCloud
 {

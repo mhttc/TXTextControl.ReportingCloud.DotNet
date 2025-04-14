@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace TXTextControl.ReportingCloud
 {
@@ -21,13 +19,8 @@ namespace TXTextControl.ReportingCloud
         public ChangeKind ChangeKind { get; set; }
         public DateTime ChangeTime { get; set; }
 
-#if NET45
-        public System.Drawing.Color DefaultHighlightColor { get; set; }
-        public System.Drawing.Color HighlightColor { get; set; }
-#else
         public string DefaultHighlightColor { get; set; }
         public string HighlightColor { get; set; }
-#endif
 
         public HighlightMode HighlightMode { get; set; }
         public int Length { get; set; }

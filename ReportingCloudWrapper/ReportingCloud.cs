@@ -2,16 +2,12 @@
  * module:			ReportingCloud .NET Wrapper (sync version)
  *
  * copyright:		© Text Control GmbH
- * version:			Reporting Cloud 1.0
+ * version:			Reporting Cloud 2.0
  *-----------------------------------------------------------------------------------------------------------*/
 
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Net.Http;
-#if NET45
-using System.Net.Http.Formatting;
-#endif
 
 /// <summary>
 /// This namespace contains classes for the Text Control ReportingCloud .NET wrapper

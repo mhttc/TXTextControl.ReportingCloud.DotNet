@@ -1,9 +1,4 @@
-﻿using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
-using System.Net.Http;
-
-namespace TXTextControl.ReportingCloud
+﻿namespace TXTextControl.ReportingCloud
 {
     public class Processing
     {
